@@ -1,2 +1,2 @@
-/secret/* /secret/ 200! Role=admin
-/secret/* /denied/ 200!
+/secret* /secret/ 200! Role=admin
+/secret* /denied/ 200!
