@@ -1,2 +1,4 @@
 /secret* /secret/ 200! Role=admin
-/secret* /denied/ 200!
+/secret* /denied/ 301!
+/component--src-pages-secret* 200! Role=admin
+/component--src-pages-secret* /not-found 200!
